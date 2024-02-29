@@ -1,9 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // motion
 import { motion } from 'framer-motion';
-// link
-import { Link } from 'react-router-dom';
 // variants
 import { fadeIn } from '../variants';
 // img

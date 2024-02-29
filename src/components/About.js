@@ -1,7 +1,5 @@
 import React from 'react';
 // countup
-import CountUp from 'react-countup';
-// intersection observer hook
 import { useInView } from 'react-intersection-observer';
 // motion
 import { motion } from 'framer-motion';
@@ -9,7 +7,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const About = () => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     threshold: 0.5,
   });
   return (
